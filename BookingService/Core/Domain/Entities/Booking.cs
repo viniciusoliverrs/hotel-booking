@@ -18,6 +18,8 @@ namespace Domain.Entities
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
         private StatusEnum Status { get; set; }
+        public Room Room { get; set; }
+        public Guest Guest { get; set; }
         public StatusEnum CurrentStatus { get { return Status; } }
 
         public void ChangeState(ActionEnum action)
