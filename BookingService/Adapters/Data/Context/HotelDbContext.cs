@@ -1,4 +1,6 @@
-﻿using Data.Mapping;
+﻿using Data.Guest;
+using Data.Mapping;
+using Data.Room;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,9 +18,9 @@ namespace Data.Context
 
         }
 
-        public virtual DbSet<Guest> Guests { get; set; }
+        public virtual DbSet<Domain.Entities.Guest> Guests { get; set; }
         public virtual DbSet<Booking> Bookings { get; set; }
-        public virtual DbSet<Room> Rooms { get; set; }
+        public virtual DbSet<Domain.Entities.Room> Rooms { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
