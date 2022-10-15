@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JbtuaUhxG5AF+pbR6cWsHCD4cHqsZryWdrETXn3kVX7iG0itj4iB+FwphELT7NwYJprJOod2Nq5GutOb+aJslw==",
+  "dgSpecHash": "DVjI8tehWqabYZLZG6GzrpscE3ybLK3alPwUylI/3sWW2wsPrrSgg9r5L8+pw0FykHZXuoSNxSBAAhMbhlZn6Q==",
   "success": true,
-  "projectFilePath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Application\\Application.csproj",
+  "projectFilePath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

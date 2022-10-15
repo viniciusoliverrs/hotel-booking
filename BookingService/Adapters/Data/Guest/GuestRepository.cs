@@ -1,32 +1,25 @@
-﻿using Data.Context;
-using Domain.Ports;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Ports;
+using Microsoft.EntityFrameworkCore;
 
 namespace Data.Guest
 {
     public class GuestRepository : IGuestRepository
     {
-        private readonly HotelDbContext _context;
-
-        public GuestRepository(HotelDbContext context)
-        {
-            _context = context;
+        private readonly HotelDbContext _hotelDbContext;
+        public GuestRepository(HotelDbContext hotelDbContext)
+        { 
+            _hotelDbContext = hotelDbContext;
         }
-
         public async Task<int> Create(Domain.Entities.Guest guest)
         {
-             _context.Guests.Add(guest);
-            await _context.SaveChangesAsync();
+            _hotelDbContext.Guests.Add(guest);
+            await _hotelDbContext.SaveChangesAsync();
             return guest.Id;
         }
 
-        public Task<Domain.Entities.Guest> Get(int id)
+        public Task<Domain.Entities.Guest> Get(int Id)
         {
-            throw new NotImplementedException();
+            return _hotelDbContext.Guests.Where(g => g.Id == Id).FirstOrDefaultAsync();
         }
     }
 }

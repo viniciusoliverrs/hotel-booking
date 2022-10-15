@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Consumers\\API\\API.csproj": {}
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Consumers\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj": {
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Adapters\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj",
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Adapters\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Adapters\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Adapters\\Data\\obj\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Adapters\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj"
+              "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj"
               }
             }
           }
@@ -48,25 +48,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.0.3, )"
             }
           },
           "imports": [
@@ -84,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Consumers\\API\\API.csproj": {
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Consumers\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\HotelBooking\\BookingService\\Consumers\\API\\API.csproj",
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Consumers\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Consumers\\API\\API.csproj",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Consumers\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Consumers\\API\\obj\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Consumers\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -116,8 +112,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C# Projects\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj": {
-                "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj"
+              "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Adapters\\Data\\Data.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Adapters\\Data\\Data.csproj"
+              },
+              "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj"
+              },
+              "d:\\C# Projects\\dotnet-hotel-booking\\PaymentService\\core\\Application\\Application\\Payments.Application.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\PaymentService\\core\\Application\\Application\\Payments.Application.csproj"
               }
             }
           }
@@ -132,15 +134,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[6.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -165,18 +163,80 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj": {
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\obj\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UpikTI/_packaging/adb%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -223,7 +283,69 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\C# Projects\\dotnet-hotel-booking\\PaymentService\\core\\Application\\Application\\Payments.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\PaymentService\\core\\Application\\Application\\Payments.Application.csproj",
+        "projectName": "Payments.Application",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\PaymentService\\core\\Application\\Application\\Payments.Application.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\PaymentService\\core\\Application\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UpikTI/_packaging/adb%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

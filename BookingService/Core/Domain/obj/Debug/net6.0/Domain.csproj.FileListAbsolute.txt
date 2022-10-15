@@ -1,12 +1,24 @@
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\bin\Debug\net6.0\Domain.deps.json
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\bin\Debug\net6.0\Domain.dll
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\bin\Debug\net6.0\Domain.pdb
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.dll
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\refint\Domain.dll
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.pdb
-D:\C# Projects\HotelBooking\BookingService\Core\Domain\obj\Debug\net6.0\ref\Domain.dll
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\bin\Debug\net6.0\Domain.deps.json
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\bin\Debug\net6.0\Domain.dll
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\bin\Debug\net6.0\Domain.pdb
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.dll
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\refint\Domain.dll
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\Domain.pdb
+c:\Users\Vinicius\Desktop\HexagonalArchitectureCourse-PT-main\BookingService\Core\Domain\obj\Debug\net6.0\ref\Domain.dll
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\bin\Debug\net6.0\Domain.deps.json
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\bin\Debug\net6.0\Domain.dll
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\bin\Debug\net6.0\Domain.pdb
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.dll
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\refint\Domain.dll
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\Domain.pdb
+d:\C# Projects\dotnet-hotel-booking\BookingService\Core\Domain\obj\Debug\net6.0\ref\Domain.dll

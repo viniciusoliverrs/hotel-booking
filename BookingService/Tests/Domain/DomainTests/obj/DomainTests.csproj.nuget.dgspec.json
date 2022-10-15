@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj": {}
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj": {}
   },
   "projects": {
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj": {
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\obj\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,18 +58,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj": {
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\HotelBooking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
         "projectName": "DomainTests",
-        "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Tests\\Domain\\DomainTests\\obj\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Tests\\Domain\\DomainTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj"
+              "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj"
               }
             }
           }
@@ -108,23 +108,19 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.1.0, )"
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -142,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj": {}
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj": {
+    "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\Domain.csproj",
+        "projectPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Projects\\HotelBooking\\BookingService\\Core\\Domain\\obj\\",
+        "outputPath": "d:\\C# Projects\\dotnet-hotel-booking\\BookingService\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
